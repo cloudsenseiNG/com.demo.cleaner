@@ -19,4 +19,4 @@ jobs:
       image: returntocorp/semgrep
     steps:
     - uses: actions/checkout@v3
-    - run: semgrep ci --baseline-commit 14c799c3bd6cd740892cc5c4a4f6285c84c6f1d1
+    - run: semgrep ci
